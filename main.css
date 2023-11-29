@@ -3834,3 +3834,17 @@
 			}
 
 		}
+
+.background-div {
+	background-image: url('/img/shanghai2.png');
+	background-repeat: no-repeat;
+	background-size: cover; /* 或其他值，如contain */
+	/* 设置高度和宽度以适应背景图 */
+	height: 100%; /* 示例高度 */
+	width: 100%; /* 示例宽度 */
+}
+
+.transparent-div {
+	background-color: rgba(255, 255, 255, 0.6); /* 白色背景，50%的透明度 */
+	/* 其他样式 */
+}
